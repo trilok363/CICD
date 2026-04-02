@@ -1,0 +1,10 @@
+name: Firstworkflow
+on : workflow_dispatch
+jobs:
+  first_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Message
+        run: echo "hello Trilo CICD"
+      - name: Print Buy
+        run: echo "byu Trilok"
