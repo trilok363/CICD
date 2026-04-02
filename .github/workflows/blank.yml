@@ -7,4 +7,4 @@ jobs:
       - name: Print Message
         run: echo "hello Trilo CICD"
       - name: Print Buy
-        run: echo "byu Trilok"
+        run: echo "buy Trilok"
